@@ -1,0 +1,149 @@
+body {
+    background-color: white;
+}
+
+#box1 {
+    width: 90%;
+    height: 250px;
+    border: solid black 5px;
+    margin: 25px auto;
+    position: relative;
+    
+}
+
+.purple {
+    width: 4%;
+    height: 75%px;
+    background: rgb(126, 43, 158);
+    margin: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.green {
+    width: 400px;
+    height: 200px;
+    background: green;
+}
+
+.blue {
+    width: 100px;
+    height: 100px;
+    background: lightskyblue;
+    border-radius: 50%;
+}
+
+#box2 {
+    width: 90%;
+    height: 250px;
+    border: dotted black 5px;
+    margin: 0 auto;
+    padding: 0px;
+    position: relative;
+}
+
+.h2 {
+    
+    width: 95%;
+    height: 80%;
+    background-color: rgb(245, 240, 212);
+    margin: 0 auto;
+    padding: 0 auto;
+    box-shadow: 5px 5px 3px black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#box3 {
+    border: solid rgb(211, 211, 211) .1px;
+    width: 40%;
+    height: 300px;
+    box-shadow: 2px 2px 2px rgb(156, 156, 156);
+    margin: 25px auto;
+    padding: 25px;
+    position: relative;
+
+}
+
+.h1 {
+    color: darkblue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS Reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
