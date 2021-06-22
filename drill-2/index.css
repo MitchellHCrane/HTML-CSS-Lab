@@ -3,35 +3,42 @@ body {
 }
 
 #box1 {
-    width: 90%;
-    height: 250px;
+    width: 95%;
+    height: 200px;
     border: solid black 5px;
     margin: 25px auto;
+    padding: 25px;
     position: relative;
-    
 }
 
 .purple {
-    width: 4%;
-    height: 75%px;
-    background: rgb(126, 43, 158);
+    background-color: rgb(71, 0, 88);
+    height: 170px;
+    width: 50px;
     margin: 10px;
     position: absolute;
     left: 0;
     bottom: 0;
 }
-
 .green {
-    width: 400px;
-    height: 200px;
-    background: green;
+    background-color: green;
+    width: 500px;
+    height: 230px;
+    position: absolute;
+    margin: 10px;
+    left: 100px;
+    bottom: 0;
 }
 
 .blue {
-    width: 100px;
-    height: 100px;
-    background: lightskyblue;
     border-radius: 50%;
+    background-color: blue;
+    height: 195px;
+    width: 195px;
+    position: absolute;
+    margin: 2px;
+    left: 650px;
+
 }
 
 #box2 {
